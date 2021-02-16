@@ -98,6 +98,8 @@ label {
 .card{
     background-color: #9e5cb3;
     color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .cardtitle-white{
@@ -108,7 +110,8 @@ label {
     margin-bottom: 1.3rem;
     text-align: center;
     font-size: 1.25rem;
-    font-weight: 300; 
+    font-weight: 300;
+    
 }
 
 #grad {
@@ -124,3 +127,4 @@ label {
 html,body {
     height: 100%;
   }
+
