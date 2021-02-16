@@ -1,6 +1,6 @@
 h1 { 
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size: 24px;
+    font-size: 50px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -20,7 +20,7 @@ p {
      font-size: 14px; 
      font-style: normal; 
      font-variant: normal; 
-     font-weight: 400; 
+     font-weight: 600; 
      line-height: 20px; 
     }
 
@@ -107,4 +107,11 @@ label {
     font-size: 1.25rem;
     font-weight: 300; 
 }
-
+.bigblock{
+    background-color: #6A1B9A;
+    color: #ffffff;
+}
+.footer{
+    background-color: #6A1B9A;
+    color: #ffffff;
+}
