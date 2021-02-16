@@ -111,4 +111,12 @@ label {
     font-weight: 300; 
 }
 
+#grad {
+    background-image: linear-gradient(to top right, rgba(245, 245, 245, 0.651)50%,   rgb(255, 255, 255) 50%);
+    background-repeat: no-repeat;
+  }
+
+.logo-formulaire{
+    padding: 60px;
+}
 
