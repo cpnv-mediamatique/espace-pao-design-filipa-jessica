@@ -128,3 +128,7 @@ html,body {
     height: 100%;
   }
 
+.accueilbtn {
+    margin-block: 60px;
+    padding-block: 20px;
+}
