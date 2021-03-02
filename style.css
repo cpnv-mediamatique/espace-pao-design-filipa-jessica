@@ -19,8 +19,9 @@ h2{ font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helv
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 26.4px;
-    color: blueviolet;
+    line-height: 100px;
+    color: #9e5cb3;
+    
 }
 /*Fillipa page*/
 p { 
@@ -98,15 +99,17 @@ label {
 
 .form-check-input[type=checkbox]:checked {
     background-image: none;
-    background-color: #bdbdbd;
+    background-color: #9e5cb3;
 }
 .form-check-input:checked {
-    border-color: #bdbdbd;
+    border-color: #ffffff;
 }
 
 .card{
-    background-color: #6A1B9A;
+    background-color: #9e5cb3;
     color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .cardtitle-white{
@@ -117,20 +120,25 @@ label {
     margin-bottom: 1.3rem;
     text-align: center;
     font-size: 1.25rem;
-    font-weight: 300; 
+    font-weight: 300;
+    
 }
 
 #grad {
     background-image: linear-gradient(to top right, rgba(245, 245, 245, 0.651)50%,   rgb(255, 255, 255) 50%);
     background-repeat: no-repeat;
+    height: 100px;
   }
 
 .logo-formulaire{
     padding: 60px;
 }
 
+.space{
+    padding-top: 60px;
+}
 .bigblock {
-    background-color: #6A1B9A;
+    background-color: #9e5cb3;
     margin-top: 10em;
 }
 .Marges {
@@ -141,4 +149,16 @@ label {
 
 .lelogo {
     padding: 60px;
+}
+
+.petitblock {
+    background-color: rgb(179, 179, 179);
+}
+
+.titrecolor {
+    color: #9e5cb3;
+}
+/* Nouvelle couleur paragraphe */
+p { 
+    color: honeydew;
 }

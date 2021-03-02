@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Espace Entreprise Pao - CPNV</title>
+    <title>Connexion</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -15,25 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
     />
     <!-- MDB -->
-
+    
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-<body>
+<body id="grad" >
     <!-- Image and text -->
-<nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img
-          src="https://www.cpnv.ch/app/uploads/logo@2x.png"
-          height="30"
-          alt=""
-          loading="lazy"
-        />
-        Espace Entreprise PAO
-      </a>
-    </div>
-  </nav>
+
     
     <div class="container">
         <div class="row">
@@ -42,14 +30,34 @@
           </div>
         
           <div class="col-md">
+            <div class="container-fluid">
+              <a href="#">
+                <img  class="img-fluid logo-formulaire" src="img/logoentreprise-01.png" alt="L'espace entreprise PAO du CPNV" loading="lazy"/>
+              </a>
+            </div>
+      
             <div class="card">
-              <div class="card-body">
-                <h5 class="cardtitle-white">Connexion</h5>
-                <form>
+              <div class="card-body ">
+                <h5 class="card-title">Inscription</h5>
+                <form >
+                  <div class="row mb-4">
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1" class="form-control" />
+                        <label class="form-label" for="form3Example1">Nom</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example2" class="form-control" />
+                        <label class="form-label" for="form3Example2">Prénom</label>
+                      </div>
+                    </div>
+                  </div>
                   <!-- Email input -->
-                  <div class="form-outline mb-4 cardtitle-white">
+                  <div class="form-outline mb-4">
                     <input type="email" id="form2Example1" class="form-control" />
-                    <label class="form-label " for="form2Example1">Email</label>
+                    <label class="form-label" for="form2Example1">Email</label>
                   </div>
                 
                   <!-- Password input -->
@@ -59,26 +67,7 @@
                   </div>
                 
                   <!-- 2 column grid layout for inline styling -->
-                  <div class="row mb-4">
-                    <div class="col d-flex justify-content-center">
-                      <!-- Checkbox -->
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="checkbox"
-                          value=""
-                          id="form2Example3"
-                          checked
-                        />
-                        <label class="form-check-label" for="form2Example3"> Se souvenir </label>
-                      </div>
-                    </div>
-                
-                    <div class="col">
-                      <!-- Simple link -->
-                      <a href="#!">Oublié votre mot de passe?</a>
-                    </div>
-                  </div>
+                  
                 
                   <!-- Submit button -->
                   <button type="submit" class="btn btn-light btn-primary btn-block b">Connexion</button>
