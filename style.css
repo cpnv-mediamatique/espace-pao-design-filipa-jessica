@@ -156,6 +156,7 @@ label {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .titreaccueil{
@@ -172,6 +173,8 @@ label {
 .titrecolor {
     color: #9e5cb3;
 }
+=======
+>>>>>>> 278146e60602670fdfa8f5d358414e88fedca56a
 /* Nouvelle couleur paragraphe */
 p { 
     color: honeydew;
@@ -187,5 +190,17 @@ p {
 }
 .miniblock {
     height: 70px;
+<<<<<<< HEAD
 >>>>>>> 311e9cd0977faf66d7844a1ac92f68c649f6f98e
+=======
+}
+.titrecolor {
+    color: #9e5cb3;
+}
+.prlpFooter{
+    background-color: #5A3566;
+    color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.19);
+    
+>>>>>>> 278146e60602670fdfa8f5d358414e88fedca56a
 }
