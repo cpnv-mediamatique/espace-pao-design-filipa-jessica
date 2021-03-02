@@ -140,3 +140,11 @@ html,body {
 .titreaccueil{
     margin-block: 60px;
 }
+
+.cardwhite{
+    background-color: #ffffff;
+}
+
+.titre{
+    text-align: center;
+}
