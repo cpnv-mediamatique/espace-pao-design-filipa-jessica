@@ -14,15 +14,25 @@ h3 {
     font-weight: 700;
     line-height: 15.4px;
 }
-
+h2{ font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 100px;
+    color: #9e5cb3;
+    
+}
+/*Fillipa page*/
 p { 
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
      font-size: 14px; 
      font-style: normal; 
      font-variant: normal; 
      font-weight: 600; 
-     line-height: 20px; 
+     line-height: 40px;
     }
+
 
 blockquote {
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
@@ -124,19 +134,30 @@ label {
     padding: 60px;
 }
 
-html,body {
-    height: 100%;
-  }
+.space{
+    padding-top: 60px;
+}
+.bigblock {
+    background-color: #9e5cb3;
+    margin-top: 10em;
+}
+.Marges {
+    padding: 40px;
+    padding-right: 60px;
 
-.accueilbtn {
-    margin-block: 60px;
-    padding-block: 20px;
 }
 
-.accueilparagraphe{
-    padding-top: 20px;
+.lelogo {
+    padding: 60px;
 }
 
+.petitblock {
+    background-color: rgb(226, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+<<<<<<< HEAD
 .titreaccueil{
     margin-block: 60px;
 }
@@ -147,4 +168,24 @@ html,body {
 
 .titre{
     text-align: center;
+=======
+.titrecolor {
+    color: #9e5cb3;
+}
+/* Nouvelle couleur paragraphe */
+p { 
+    color: honeydew;
+}
+.petitblock1 {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+/* Nouvelle taille image */
+
+.img{
+    height: 200px;
+}
+.miniblock {
+    height: 70px;
+>>>>>>> 311e9cd0977faf66d7844a1ac92f68c649f6f98e
 }

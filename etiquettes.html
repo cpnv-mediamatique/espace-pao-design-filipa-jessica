@@ -23,7 +23,7 @@
 
     <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="https://www.cpnv.ch/app/uploads/logo@2x.png" height="30" alt="" loading="lazy" />
+        <img src="img/logoentreprise-01.png" height="70" alt="" loading="lazy" />
 
         Espcace Entreprise PAO 
       </a>
@@ -36,60 +36,96 @@
   </div>
   </nav>
   </div>
-  <div class="container-fluid">
-    <div class="d-flex justify-content-center align-items-center" style="height: 50vh;">
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center" style="height: 20vh;"></div>
       <div class="text-center">
       </div>
-      <main class="content">
-        <div id="cms_bloc_105" class="cms_bloc cms_bloc_title">
-          <h1>Etiquette</h1>
-          <p>Mettez les casiers natels et armoires en ordre à l'aide des étiquettes</p>
+      <main class="content ">
+        <div id="cms_bloc_105" class="cms_bloc cms_bloc_title text-center">
+          <h2>Etiquettes</h2>
+        </div>
+        <div class="container text-center ">
+          <p1>Mettez les casiers natels et armoires en ordre à l'aide des étiquettes</p>
+        </div>
       </main>
     </div>
   </div>
-  <div class="container-fluid bigblock">
-    <div class="d-flex justify-content-center align-items-center" style="height: 50vh;" backgroundcolor="black">
       <div class="text-center">
       </div>
     </div>
+    <div class="container-fluid bigblock">
+    <div class="container">
     <main class="content">
-      <div id="cms_bloc_105" class="cms_bloc cms_bloc_title">
-        <p>Remplissez le formulaire d'informations à compléter pour que vous puissiez avoir les étiquettes qui vous
-          conviennent !
+      <div id="cms_bloc_105" class="cms_bloc cms_bloc_title text-center">
+        <p>Remplissez le formulaire d'informations à compléter pour  <br> 
+          que vous puissiez avoir les étiquettes qui vous conviennent !</br> 
         </p>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <div class="card">
-            <img src="img/Etiquette1.jpeg" class="card-img-top" alt="..." />
+      <div class="container-xl petitblock">
+      <div class= "container petitblock">
+        <a href="">Cliquez sur le design voulu</a>
+      <div class="row justify-content-center petitblock1">
+        <div class="col-4">
+          <div class="card  bg-image hover-zoom">
+            <a href="commandesClients.html">
+            <img src="img/Etiquette1.jpeg" class="img-fluid hover-shadow" alt="..." />
+          </a>
           </div>
         </div>
-        <div class="col-6">
-          <div class="card">
-            <img src="img/Etiquette2.jpeg" class="card-img-top" alt="..">
+        <div class="col-4">
+          <div class="card bg-image hover-zoom">
+            <a href="commandesClients.html">
+            <img src="img/Etiquette2.jpeg" class="img-fluid hover-shadow" />
+          </div>
           </div>
         </div>
       </div>
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEname" class="form-label">Nom et prénom</label>
-          <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Classe</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-
-        <button type="submit" class="btn btn-primary">Commander</button>
-      </form>
-      <div class="row">
-        <div class="col-6">
-          <p>Question? Problème technique? ou autre ?</p>
-          <p>Contactez-nous: espace.pao@mediamatique.ch</p>
-          <p>&copy; By Filipa Batalim and Jessica Binkita</p>
+    </a>  
+<div class="row justify-content-center petitblock">
+  <form>
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row justify-content-center petitblock1">
+      <div class="col-4">
+        <div class="form-outline">
+          <input type="text" id="form3Example1" class="form-control" />
+          <label class="form-label" for="form3Example1">Prénom</label>
         </div>
       </div>
+      <div class="col-4">
+        <div class="form-outline">
+          <input type="text" id="form3Example2" class="form-control" />
+          <label class="form-label" for="form3Example2">Nom</label>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Classe input -->
+    <div class="form-outline row justify-content-center petitblock">
+        <div class="col-md-6 petitblock">
+      <input type="text" id="form3Example3" class="form-control" />
+      <label class="form-label" for="form3Example3">Classe</label>
+        </div>
+   </div>
+    <br>
+     <!-- COMMANDER button -->
+     <button type="submit" class="btn bg-light btn-block col-md-6">COMMANDER</button>
+    </main>
+ 
+  
+  </form>
+</div>
+<br>
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="container-fluid text-center p-3" style="background-color:rgba(159, 92, 179, 0.39); color: honeydew;">
+    © 2020 Copyright
+   <br> Question? Problème technique? ou autre?</br>
+   <br>   Contactez-nous: espace.pao@mediamatique.ch</br>
+    <a class="text-dark" href="https://mdbootstrap.com/"></a>
   </div>
+</div>
+
+
 
   <!-- /container -->
 
@@ -109,7 +145,9 @@
   <script src="../assets/js/bootstrap-collapse.js"></script>
   <script src="../assets/js/bootstrap-carousel.js"></script>
   <script src="../assets/js/bootstrap-typeahead.js"></script>
-  </main>
+</footer>
+</main>
+</div>  
+</div>  
 </body>
-
 </html>
